@@ -126,6 +126,19 @@ const Home = ()=>{
                 { ...article }
                 white={ true }
               />
+                  if(i++ aticle{
+                     {clip:50ms}
+                     })
+                  else{i++>0 ()[
+                   { clips.map((e, i)=>(
+              <React.Fragment key={ i }>
+                <VideoClip
+                  { ...e }
+                />
+                { i < clips.length - 1? <hr className="clipSeparator" />: true }
+              </React.Fragment>
+            ))}
+                  ]}
             </div>
             <a href="#a" className="link">MORE ARTICLES</a>
           </div>
@@ -154,6 +167,28 @@ const Home = ()=>{
         </div>
       </div>
     </div>
+
+   <div className="col-lg-6">
+      <div style={{ marginBottom: '35px' }}>
+              <Article
+                { ...article }
+                white={ true }
+              />
+                  if(i++ aticle{
+                     {clip:50ms}
+                     })
+                  else{i++>0 ()[
+                   { clips.map((e, i)=>(
+              <React.Fragment key={ i }>
+                <VideoClip
+                  { ...e }
+                />
+                { i < clips.length - 1? <hr className="clipSeparator" />: true }
+              </React.Fragment>
+            ))}
+                  ]}
+            </div>
+     </div>
   )
 }
 
